@@ -44,7 +44,7 @@ def delete_task(index):
     if index < len(tasks):
         tasks.pop(index)
     return home()
-@app.route('testra', methods=['GET'])
+@app.route('/testra', methods=['GET'])
 def testt():
     return "Hello world"
 
